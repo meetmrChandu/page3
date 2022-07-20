@@ -202,3 +202,63 @@ p {
     visibility: hidden;
     line-height: 0;
 }
+@media screen and (max-width:426px) {
+    #header , #container,#footer{
+      width: 100%;
+      margin: 0 auto;
+      display: block;
+    }
+    #header #hgroup,#header nav,#header nav li,#header #hgroup h1, #header #hgroup h2{
+      float: none;
+      width: 100%;
+      display: block;
+      text-align: center;
+      margin: 5px;
+    }
+   
+    #container section{
+      float: none;
+      margin: 0;
+      width:100%;
+      padding: 0;
+      
+    }
+    #container #left_column{
+      float: none;
+      width: 100%;
+      display: block;
+      text-align: center;
+      padding-top: 20px;
+    }
+    #container #left_column h2.title{
+      font-size: 25px;
+    }
+    #container .last{
+      width: 100%;
+      display: block;
+      font-size: 15px;
+    }
+    #container #content{
+      float:none;
+      width: 100%;
+      margin:25px;
+
+    }
+    #container #content article h2{
+      text-align: center;
+    }
+    #container .more{
+      text-align: center;
+    }
+    #footer{
+      padding: 10px;
+    }
+    .fl_left,.fl_right{
+      float: none;
+      text-align: center;
+      padding: 10px;
+      width: 100%;
+    }
+
+    
+  }
